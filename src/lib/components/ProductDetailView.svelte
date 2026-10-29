@@ -77,11 +77,16 @@
             </div>
           </div>
 
-          <!-- Giant Number Code & Wishlist -->
-          <div class="flex items-center justify-between mt-3">
-            <h1 class="text-6xl sm:text-7xl font-black tracking-tight text-black leading-none">
-              {product.code}
-            </h1>
+          <!-- Giant Number Code & Perfume Title & Wishlist -->
+          <div class="flex items-start justify-between mt-3">
+            <div>
+              <div class="text-xs font-mono font-bold tracking-widest text-black/50 uppercase">
+                NO. {product.code} &bull; {product.category.toUpperCase()}
+              </div>
+              <h1 class="text-4xl sm:text-5xl font-black tracking-tight text-black mt-1 uppercase">
+                {product.name}
+              </h1>
+            </div>
 
             <button
               onclick={() => isWishlisted = !isWishlisted}
@@ -90,10 +95,6 @@
             >
               <Heart class="w-5 h-5 {isWishlisted ? 'fill-red-600 text-red-600' : 'text-black'}" />
             </button>
-          </div>
-
-          <div class="text-xs font-bold font-mono uppercase tracking-widest text-black/60 mt-1">
-            {product.category.toUpperCase()} &bull; {product.name}
           </div>
 
           <!-- Inspiration Banner Box -->

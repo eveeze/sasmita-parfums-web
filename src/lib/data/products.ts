@@ -4,8 +4,8 @@ export const PRODUCTS: PerfumeProduct[] = [
   {
     id: 'sasmita-379',
     code: '379',
-    name: 'SEGAR RAWA PENING',
-    javaneseName: 'Tirta Ambarawa',
+    name: 'TIRTA AMBARAWA',
+    javaneseName: 'Banyu Ambarawa',
     family: 'Cítrico',
     familyColor: '#EAB308',
     category: 'Unisex',
@@ -66,7 +66,7 @@ export const PRODUCTS: PerfumeProduct[] = [
   {
     id: 'sasmita-565',
     code: '565',
-    name: 'MELATI KERATON',
+    name: 'SEKAR KEDHATON',
     javaneseName: 'Sekar Gambir Kusuma',
     family: 'Floral',
     familyColor: '#A855F7',
@@ -97,7 +97,7 @@ export const PRODUCTS: PerfumeProduct[] = [
   {
     id: 'sasmita-708',
     code: '708',
-    name: 'SATRIA NUSANTARA',
+    name: 'REMPAH SULTAN',
     javaneseName: 'Ksatria Singasari',
     family: 'Amaderada',
     familyColor: '#16A34A',

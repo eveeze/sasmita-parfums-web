@@ -45,13 +45,18 @@
       </span>
     </div>
 
-    <!-- Giant Number Code (Signature Esenzzia Element) -->
-    <div class="text-4xl sm:text-5xl font-black tracking-tight text-black mt-2 leading-none">
-      {product.code}
+    <!-- Giant Number Code & Modern Javanese Name -->
+    <div class="mt-2">
+      <div class="text-3xl sm:text-4xl font-black tracking-tight text-black leading-none">
+        {product.code}
+      </div>
+      <div class="text-sm font-black tracking-tight text-black mt-1.5 uppercase">
+        {product.name}
+      </div>
     </div>
 
     <!-- Category Label -->
-    <div class="text-xs font-semibold text-black/70 mt-1 uppercase tracking-wider">
+    <div class="text-xs font-semibold text-black/60 mt-1 uppercase tracking-wider">
       {product.category}
     </div>
 

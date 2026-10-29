@@ -8,7 +8,7 @@
       author: 'Irma J.',
       date: '26/10/2026',
       stars: 5,
-      comment: 'Aroma pembuka jeruk purutnya sangat segar dan renyah. Begitu dry down, aroma pandan liar dan vetiver basahnya keluar anggun dan mewah sekali di cuaca tropis.',
+      comment: 'Tirta Ambarawa 379 aroma pembuka jeruk purutnya sangat segar dan renyah. Begitu dry down, aroma pandan liar dan vetiver basahnya keluar anggun dan mewah sekali di cuaca tropis.',
       product: PRODUCTS[0], // 379
       vialImage: '/assets/products/sasmita-379.jpg'
     },
@@ -16,7 +16,7 @@
       author: 'Maria K.',
       date: '17/10/2026',
       stars: 5,
-      comment: 'Cendana Mataram 428 ini bikin berwibawa banget. Karakternya woody pekat seperti masuk bangsal keraton Jawa kuno, boks silinder hitamnya sangat mewah.',
+      comment: 'Cendana Mataram 428 ini bikin berwibawa banget. Karakternya woody pekat seperti masuk bangsal keraton Jawa kuno, kemasan kristal dan kayunya sangat mewah.',
       product: PRODUCTS[1], // 428
       vialImage: '/assets/products/sasmita-428.jpg'
     },
@@ -24,7 +24,7 @@
       author: 'Elisabet M.',
       date: '15/10/2026',
       stars: 5,
-      comment: 'Melati Keraton 565 wanginya luar biasa semerbak dan magnetis. Kelopak sedap malam malamnya manis anggun berkelas, tahan lebih dari 16 jam bahkan setelah dicuci.',
+      comment: 'Sekar Kedhaton 565 wanginya luar biasa semerbak dan magnetis. Kelopak sedap malam malamnya manis anggun berkelas, tahan lebih dari 16 jam bahkan setelah dicuci.',
       product: PRODUCTS[2], // 565
       vialImage: '/assets/products/sasmita-565.jpg'
     },
@@ -32,7 +32,7 @@
       author: 'Bagus A.',
       date: '12/10/2026',
       stars: 5,
-      comment: 'Satria Nusantara 708 aroma nanas berasap dan kayunya sangat maskulin dan berkarisma. Pengemasan sangat aman dan bonus vial sampel 5ml gratisnya mantap!',
+      comment: 'Rempah Sultan 708 aroma cengkeh hangat dan vanilanya sangat maskulin dan berkarisma. Pengemasan sangat aman dan bonus vial sampel 5ml gratisnya mantap!',
       product: PRODUCTS[3], // 708
       vialImage: '/assets/products/sasmita-708.jpg'
     }
