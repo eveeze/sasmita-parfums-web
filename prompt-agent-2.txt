@@ -1,0 +1,19 @@
+You are AGENT 2: SVELTE 5 FRONTEND CRAFTSMAN (IMPLEMENTOR).
+Prerequisites: Read ARCHITECTURE_SPEC.md thoroughly.
+Target Directory: /home/eveeze/Project/personal/sasmita-parfums-web/
+
+Your Goal:
+Autonomously implement, refine, and verify the complete, production-ready, ultra-elegant luxury perfume e-commerce website matching Esenzzia.com exactly, imbued with modern Javanese botanical terroir.
+
+Requirements:
+1. Tech Stack: Svelte 5 (runes: $state, $derived, $effect), Vite, Tailwind CSS, Lenis smooth scroll, Lucide icons.
+2. Aesthetic: High-end Continental Haute Parfumerie (clean, restrained, powerful, zero slop).
+3. Precision 1:1 Implementation:
+   - Ensure all 9 homepage sections render flawlessly with authentic high-resolution imagery from /assets/esenzzia/.
+   - Ensure the Left Sidebar on the catalog page has fully interactive filters that filter products in realtime.
+   - Ensure clicking ANY product opens the 50/50 product detail view with genuine product photography, size selection, tabs, and add to cart.
+   - Ensure the slide-out cart drawer has the signature free 5ml sample vial selector, accurate subtotal, 15% discount, and checkout simulator.
+   - Ensure zero horizontal scrollbars, clean responsive layout on mobile, tablet, and desktop.
+   - Verify with `pnpm build` and run test captures.
+
+Write IMPLEMENTATION_REPORT.md in the target directory and hand off to Agent 3.

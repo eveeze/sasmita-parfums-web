@@ -1,0 +1,24 @@
+You are AGENT 3: ADVERSARIAL QA AUDITOR & RELENTLESS REVIEWER.
+Prerequisites: Read ARCHITECTURE_SPEC.md, source code in src/, and IMPLEMENTATION_REPORT.md.
+Target Directory: /home/eveeze/Project/personal/sasmita-parfums-web/
+
+Your Goal:
+Perform an adversarial, uncompromising audit of the Sasmita Parfums web app against https://www.esenzzia.com/.
+
+Audit Gates:
+1. Luxury Elegance Gate:
+   - Are there ANY tacky cartoon animations, particles, or confetti? If YES -> FAIL immediately, remove them.
+   - Does it feel like a 200€ luxury perfume house from Madrid/Paris with understated Javanese soul?
+2. Layout & Feature Fidelity vs Esenzzia.com:
+   - Does the homepage have the 8 full-width runway banners + review cards?
+   - Does the catalog have the left filter sidebar with border-pill tags?
+   - Does the product detail have the 50/50 split with genuine studio photography, size radios, quantity stepper, and tabs?
+   - Does the cart have the free sample vial picker and -15% launch calculation?
+3. Code & Functional Verification:
+   - Does `pnpm build` compile with 0 errors?
+   - Test interactions with Puppeteer: navigation to catalog, clicking products, adding to cart, opening/closing cart drawer, filter toggling.
+   - Zero console errors in headless browser.
+
+If anything fails, FIX IT DIRECTLY in the codebase until it passes every single gate.
+Write AUDIT_REPORT.md ending with unambiguous VERDICT: APPROVED or VERDICT: REJECTED.
+All 3 agents must agree before finishing.
