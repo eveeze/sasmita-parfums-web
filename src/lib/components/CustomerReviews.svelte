@@ -8,33 +8,33 @@
       author: 'Irma J.',
       date: '26/10/2026',
       stars: 5,
-      comment: 'Aroma jeruk purut dan daun pandannya benar-benar segar dan autentik! Tidak bikin enek sama sekali, sangat tahan lama di cuaca panas seharian.',
+      comment: 'Me encanta las notas de salida, tenía miedo al fondo... pero que rica es de todo. Daun pandan dan sitrusnya luar biasa segar.',
       product: PRODUCTS[0], // 379
-      vialImage: '/assets/bottles/bottle-379.png'
+      vialImage: '/assets/esenzzia/products/379-meteore.jpg'
     },
     {
       author: 'Maria K.',
       date: '17/10/2026',
       stars: 5,
-      comment: 'Cendana Mataram ini bikin berwibawa banget. Karakternya woody mewah seperti masuk keraton Jawa tapi kemasannya sangat modern clean.',
-      product: PRODUCTS[1], // 017
-      vialImage: '/assets/bottles/bottle-017.png'
+      comment: 'La compré para probarla y me ha encantado. Cendana Mataram ini bikin berwibawa banget. Karakternya woody mewah seperti masuk keraton Jawa.',
+      product: PRODUCTS[1], // 428
+      vialImage: '/assets/esenzzia/products/428-reckless.jpg'
     },
     {
       author: 'Elisabet M.',
       date: '15/10/2026',
       stars: 5,
-      comment: 'Melati Keraton 108 langsung jadi signature scent saya. Bunga sedap malamnya mistis elegan dan projection-nya luar biasa tahan cuci.',
-      product: PRODUCTS[2], // 108
-      vialImage: '/assets/bottles/bottle-108.png'
+      comment: 'Se me pusieron los pelos de punta al olerlo. Era mi perfume de joven y fue como volver... Melati Keraton projection-nya luar biasa tahan cuci.',
+      product: PRODUCTS[2], // 565
+      vialImage: '/assets/esenzzia/products/565-palatine.jpg'
     },
     {
-      author: 'Bagus A.',
+      author: 'Miguel A.',
       date: '12/10/2026',
       stars: 5,
-      comment: 'Rempah Sultan 245 aroma cengkeh & vanilinya hangat maskulin. Dapet bonus 1 sample vial gratis juga di dalam paketnya.',
-      product: PRODUCTS[3], // 245
-      vialImage: '/assets/bottles/bottle-245.png'
+      comment: 'Gran descubrimiento, lo pedí en un conjunto de muestras de vario... Rempah Sultan 601 aromanya hangat maskulin.',
+      product: PRODUCTS[3], // 601
+      vialImage: '/assets/esenzzia/products/017-santal.jpg'
     }
   ];
 </script>
@@ -46,17 +46,17 @@
     <div class="text-center mb-12">
       <div class="text-4xl sm:text-6xl font-black tracking-tight text-white flex items-center justify-center gap-2">
         <span class="text-amber-400">★</span>
-        <span>4.8</span>
+        <span>4.5</span>
         <span class="text-2xl sm:text-3xl font-normal text-white/50">/5</span>
       </div>
       <div class="text-xs font-mono uppercase tracking-widest text-white/60 mt-2">
-        8.228 Ulasan Pelanggan Terverifikasi
+        8.228 Opiniones
       </div>
 
       <!-- Arrow Controls -->
       <div class="flex items-center justify-center gap-4 mt-4 text-white/60">
-        <button class="p-1 hover:text-white transition-colors"><ChevronLeft class="w-5 h-5" /></button>
-        <button class="p-1 hover:text-white transition-colors"><ChevronRight class="w-5 h-5" /></button>
+        <button class="p-1 hover:text-white transition-colors cursor-pointer"><ChevronLeft class="w-5 h-5" /></button>
+        <button class="p-1 hover:text-white transition-colors cursor-pointer"><ChevronRight class="w-5 h-5" /></button>
       </div>
     </div>
 
@@ -93,15 +93,15 @@
             onclick={() => nav.goToDetail(r.product)}
             class="mt-6 pt-3 border-t border-black/10 flex items-center gap-3 cursor-pointer group hover:bg-neutral-50 p-1 -m-1 transition-colors"
           >
-            <div class="w-10 h-10 bg-neutral-100 p-1 rounded-[1px] shrink-0">
-              <img src={r.vialImage} alt={r.product.name} class="w-full h-full object-contain mix-blend-multiply" />
+            <div class="w-12 h-12 bg-neutral-900 rounded-[1px] overflow-hidden shrink-0">
+              <img src={r.vialImage} alt={r.product.name} class="w-full h-full object-cover" />
             </div>
 
             <div class="min-w-0">
               <div class="text-xs font-black font-mono leading-none group-hover:text-amber-700">
                 {r.product.code}
               </div>
-              <div class="text-[10px] text-black/60 truncate uppercase font-semibold">
+              <div class="text-[10px] text-black/60 truncate uppercase font-semibold mt-1">
                 {r.product.inspiration}
               </div>
             </div>
