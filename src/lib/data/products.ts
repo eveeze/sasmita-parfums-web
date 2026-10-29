@@ -11,7 +11,7 @@ export const PRODUCTS: PerfumeProduct[] = [
     category: 'Unisex',
     season: ['Kemarau / Panas', 'Sepanjang Tahun'],
     intensity: 'Intermedio',
-    inspiration: 'Inspirado en LOUIS VUITTON METEORE',
+    inspiration: 'Inspirasi LOUIS VUITTON MÉTÉORE',
     rating: 5.0,
     reviewCount: 14,
     discountPercent: 15,
@@ -21,7 +21,7 @@ export const PRODUCTS: PerfumeProduct[] = [
       '100ml': 450000,
       '5ml': 65000
     },
-    image: '/assets/esenzzia/products/379-meteore.jpg',
+    image: '/assets/products/sasmita-379.jpg',
     description: 'Kesegaran hembusan angin pagi di atas telaga Rawa Pening. Pembuka sitrus jeruk purut segar bertabrakan dengan daun pandan liar dan vetiver basah. Sangat renyah, bersih, dan berwibawa.',
     pyramid: {
       top: ['Jeruk Purut Jawa', 'Bergamot Calabria', 'Mandarin Zest'],
@@ -42,7 +42,7 @@ export const PRODUCTS: PerfumeProduct[] = [
     category: 'Pria',
     season: ['Hujan / Dingin', 'Sepanjang Tahun'],
     intensity: 'Intenso',
-    inspiration: 'Inspirado en ROJA PARFUMS RECKLESS',
+    inspiration: 'Inspirasi ROJA PARFUMS RECKLESS',
     rating: 4.9,
     reviewCount: 38,
     discountPercent: 15,
@@ -52,7 +52,7 @@ export const PRODUCTS: PerfumeProduct[] = [
       '100ml': 490000,
       '5ml': 75000
     },
-    image: '/assets/esenzzia/products/428-reckless.jpg',
+    image: '/assets/products/sasmita-428.jpg',
     description: 'Aroma sakral kayu cendana Jawa yang dibakar lambat di bangsal keraton. Kaya akan tekstur kayu kering, iris beludru, dan sentuhan kulit samak bangsawan kuno.',
     pyramid: {
       top: ['Kapur Barus Halus', 'Bunga Violet', 'Kapulaga Jawa'],
@@ -73,7 +73,7 @@ export const PRODUCTS: PerfumeProduct[] = [
     category: 'Wanita',
     season: ['Sepanjang Tahun'],
     intensity: 'Intenso',
-    inspiration: 'Inspirado en PARFUMS DE MARLY PALATINE',
+    inspiration: 'Inspirasi PARFUMS DE MARLY PALATINE',
     rating: 5.0,
     reviewCount: 52,
     discountPercent: 15,
@@ -83,7 +83,7 @@ export const PRODUCTS: PerfumeProduct[] = [
       '100ml': 510000,
       '5ml': 80000
     },
-    image: '/assets/esenzzia/products/565-palatine.jpg',
+    image: '/assets/products/sasmita-565.jpg',
     description: 'Kelopak melati gambir dan sedap malam yang dipetik saat tengah malam. Manis anggun berlapis mineral amber dan sapuan safron keemasan yang membius siapa pun yang menciumnya.',
     pyramid: {
       top: ['Melati Gambir', 'Safron Kashmir', 'Mawar Damaskus'],
@@ -95,96 +95,96 @@ export const PRODUCTS: PerfumeProduct[] = [
     ingredients: 'Alcohol Denat, Parfum, Evernyl, Hedione, Ambroxan, Ethyl Maltol.'
   },
   {
-    id: 'sasmita-601',
-    code: '601',
-    name: 'REMPAH SULTAN',
-    javaneseName: 'Wangi Prajurit Nusantara',
+    id: 'sasmita-708',
+    code: '708',
+    name: 'SATRIA NUSANTARA',
+    javaneseName: 'Ksatria Singasari',
+    family: 'Amaderada',
+    familyColor: '#16A34A',
+    category: 'Pria',
+    season: ['Kemarau / Panas', 'Sepanjang Tahun'],
+    intensity: 'Intenso',
+    inspiration: 'Inspirasi CREED AVENTUS',
+    rating: 4.9,
+    reviewCount: 64,
+    discountPercent: 15,
+    isExclusive: true,
+    prices: {
+      '30ml': 330000,
+      '100ml': 520000,
+      '5ml': 85000
+    },
+    image: '/assets/products/sasmita-708.jpg',
+    description: 'Karakter pemimpin berkarisma. Paduan asap birch, nanas manis tropis lereng Gunung Kelud, bergamot segar, dan base oakmoss yang maskulin abadi.',
+    pyramid: {
+      top: ['Nanas Manis Tropis', 'Blackcurrant Liar', 'Bergamot Italia'],
+      heart: ['Kayu Birch Berasap', 'Patchouli Jawa', 'Bunga Melati'],
+      base: ['Oakmoss Matang', 'Ambergris Mineral', 'Vanilla Bourbon']
+    },
+    longevity: '12 - 16 Jam',
+    sillage: 'Sangat Kuat (Meninggalkan jejak wangi)',
+    ingredients: 'Alcohol Denat, Parfum, Limonene, Linalool, Citronellol.'
+  },
+  {
+    id: 'sasmita-728',
+    code: '728',
+    name: 'GAHARU LAWU',
+    javaneseName: 'Kalon Kayu Suci',
     family: 'Oriental',
     familyColor: '#DC2626',
-    category: 'Pria',
+    category: 'Unisex',
     season: ['Hujan / Dingin'],
     intensity: 'Intenso',
-    inspiration: 'Inspirado en ABERCROMBIE & FITCH FIERCE',
+    inspiration: 'Inspirasi ACQUA DI PARMA OUD',
     rating: 4.8,
-    reviewCount: 29,
+    reviewCount: 31,
     discountPercent: 15,
-    isExclusive: false,
+    isExclusive: true,
     prices: {
-      '30ml': 295000,
-      '100ml': 475000,
-      '5ml': 70000
+      '30ml': 340000,
+      '100ml': 540000,
+      '5ml': 90000
     },
-    image: '/assets/esenzzia/products/017-santal.jpg',
-    description: 'Kehangatan rempah jalur maritim Nusantara. Ledakan cengkeh pilihan, kayu manis Jawa, dan tembakau madu yang dibalut kelembutan vanili bourbon hangat.',
+    image: '/assets/products/sasmita-728.jpg',
+    description: 'Resin gaharu Kalimantan dan kayu oud purba lereng Lawu. Kombinasi rempah ketumbar, kulit jeruk bergamot, getah labdanum, dan kulit samak lembut.',
     pyramid: {
-      top: ['Cengkeh Maluku', 'Kayu Manis Jawa', 'Jahe Hangat'],
-      heart: ['Daun Tembakau Kering', 'Kakao Bittersweet', 'Bunga Cengkeh'],
-      base: ['Vanili Madu', 'Tonka Bean', 'Getah Kayu Manis']
+      top: ['Jeruk Bergamot Calabria', 'Jeruk Manis'],
+      heart: ['Minyak Kayu Gaharu (Oud)', 'Ketumbar Rusia', 'Kayu Amyris'],
+      base: ['Kulit Samak', 'Patchouli', 'Cedarwood Atlas']
     },
-    longevity: '10 - 12 Jam',
-    sillage: 'Hangat, Intim & Memikat',
-    ingredients: 'Alcohol Denat, Parfum, Eugenol, Coumarin, Cinnamal, Isoeugenol.'
+    longevity: '14 - 18 Jam',
+    sillage: 'Pekat & Meditatif',
+    ingredients: 'Alcohol Denat, Parfum, Coumarin, Eugenol, Isoeugenol.'
   },
   {
-    id: 'sasmita-603',
-    code: '603',
-    name: 'TEMARAM KABUT',
-    javaneseName: 'Mega Mendung Asri',
+    id: 'sasmita-773',
+    code: '773',
+    name: 'TEMARAM MALAM',
+    javaneseName: 'Mendem Wilis',
     family: 'Aromática',
     familyColor: '#EA580C',
-    category: 'Unisex',
-    season: ['Hujan / Dingin', 'Sepanjang Tahun'],
-    intensity: 'Intermedio',
-    inspiration: 'Inspirado en AGUA FRESCA ADOLFO DOMINGUEZ',
-    rating: 4.9,
-    reviewCount: 23,
-    discountPercent: 15,
-    isExclusive: false,
-    prices: {
-      '30ml': 290000,
-      '100ml': 465000,
-      '5ml': 68000
-    },
-    image: '/assets/esenzzia/products/108-melati.jpg',
-    description: 'Kabut sore di perkebunan teh lereng Merbabu. Seduhan teh hitam pekat bertaut dengan buah tin manis, daun salam, dan hembusan asap dupa temaram yang menenangkan jiwa.',
-    pyramid: {
-      top: ['Buah Tin Manis', 'Daun Salam Jawa', 'Jeruk Bergamot'],
-      heart: ['Teh Hitam Seduh', 'Tembakau Cerutu', 'Kayu Cedar'],
-      base: ['Kemenyan Halus', 'Vetiver Dingin', 'Musk Hangat']
-    },
-    longevity: '9 - 11 Jam',
-    sillage: 'Elegan & Misterius',
-    ingredients: 'Alcohol Denat, Parfum, Limonene, Linalool, Geraniol.'
-  },
-  {
-    id: 'sasmita-604',
-    code: '604',
-    name: 'PUTERI SOLO',
-    javaneseName: 'Kusuma Ayuningrat',
-    family: 'Almizcle',
-    familyColor: '#3B82F6',
     category: 'Wanita',
-    season: ['Kemarau / Panas', 'Sepanjang Tahun'],
-    intensity: 'Suave',
-    inspiration: 'Inspirado en BAMBÚ ADOLFO DOMINGUEZ',
-    rating: 4.9,
-    reviewCount: 41,
+    season: ['Hujan / Dingin', 'Sepanjang Tahun'],
+    intensity: 'Intenso',
+    inspiration: 'Inspirasi TOM FORD NOIR EXTREME',
+    rating: 5.0,
+    reviewCount: 45,
     discountPercent: 15,
-    isExclusive: false,
+    isExclusive: true,
     prices: {
-      '30ml': 305000,
-      '100ml': 485000,
-      '5ml': 72000
+      '30ml': 325000,
+      '100ml': 515000,
+      '5ml': 80000
     },
-    image: '/assets/esenzzia/products/245-rempah.jpg',
-    description: 'Kelembutan bedak beras dan kelopak mawar keraton Solo. Gourmand yang halus dengan sentuhan gula aren cair, kayu manis praline, dan musk selembut sutra sutera.',
+    image: '/assets/products/sasmita-773.jpg',
+    description: 'Sensualitas malam di taman keputren. Kapulaga eksotis, aroma kulfi manis susu berempah, bunga jeruk, dan kayu cendana amber hangat yang sangat memikat.',
     pyramid: {
-      top: ['Bedak Mawar Segar', 'Karamel Gula Jawa', 'Cognac'],
-      heart: ['Kayu Manis Halus', 'Kacang Hazelnut', 'Ekstrak Oak'],
-      base: ['Praline Vanili', 'Cendana Putih', 'Musk Bedak']
+      top: ['Kapulaga Jawa', 'Pala Banda', 'Neroli', 'Mandarin'],
+      heart: ['Kulfi Susu Berempah', 'Mawar Damaskus', 'Melati Sambac'],
+      base: ['Vanilla Manis', 'Ambergris', 'Kayu Cendana']
     },
-    longevity: '10 - 13 Jam',
-    sillage: 'Manis Lembut & Melekat Mesra',
-    ingredients: 'Alcohol Denat, Parfum, Benzyl Alcohol, Cinnamyl Alcohol, Benzyl Salicylate.'
+    longevity: '12 - 14 Jam',
+    sillage: 'Intim, Manis & Memikat',
+    ingredients: 'Alcohol Denat, Parfum, Benzyl Salicylate, Hydroxycitronellal.'
   }
 ];

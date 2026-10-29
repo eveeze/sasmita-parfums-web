@@ -68,13 +68,13 @@
         {/each}
       </div>
       <span class="text-[11px] font-mono text-black/60 font-medium">
-        {product.reviewCount} Opiniones
+        {product.reviewCount} Ulasan
       </span>
     </div>
 
   </div>
 
-  <!-- Card Middle: Real Studio Product Photography -->
+  <!-- Card Middle: Real Studio Product Photography (100% Sasmita) -->
   <div class="relative w-full aspect-[4/3] bg-neutral-900 overflow-hidden flex items-center justify-center my-2">
     
     {#if product.isExclusive}
@@ -91,7 +91,7 @@
     />
   </div>
 
-  <!-- Card Footer: Size Dropdown & Añadir al carrito Button -->
+  <!-- Card Footer: Size Dropdown & + Keranjang Button -->
   <div class="p-4 pt-1 bg-white border-t border-black/10 flex items-center justify-between gap-2">
     
     <!-- Size Selector -->
@@ -103,7 +103,7 @@
       >
         <option value="100ml">100 ml - {cart.formatIdr(product.prices['100ml'])}</option>
         <option value="30ml">30 ml - {cart.formatIdr(product.prices['30ml'])}</option>
-        <option value="5ml">Muestra 5 ml - {cart.formatIdr(product.prices['5ml'])}</option>
+        <option value="5ml">Sampel 5 ml - {cart.formatIdr(product.prices['5ml'])}</option>
       </select>
       <ChevronDown class="w-3.5 h-3.5 absolute right-1 top-1/2 -translate-y-1/2 pointer-events-none text-black/60" />
     </div>
@@ -115,9 +115,9 @@
     >
       {#if isAdded}
         <Check class="w-3.5 h-3.5 text-emerald-400" />
-        <span>Añadido</span>
+        <span>Masuk!</span>
       {:else}
-        <span>Añadir al carrito</span>
+        <span>+ Keranjang</span>
       {/if}
     </button>
 

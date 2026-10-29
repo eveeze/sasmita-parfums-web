@@ -1,23 +1,21 @@
 <script lang="ts">
   import { nav } from '$lib/stores/nav.svelte';
-  import { PRODUCTS } from '$lib/data/products';
 
-  const heroProduct = PRODUCTS[0]; // Sasmita 379
   let activeSlide = $state(0);
 </script>
 
 <section class="relative w-full h-[620px] sm:h-[720px] lg:h-[820px] bg-black overflow-hidden select-none">
-  <!-- Actual High-Res 3D Haute Perfume Visual from Esenzzia -->
+  <!-- Clean Sasmita Luxury 3D Hero Visual -->
   <img
-    src="/assets/esenzzia/00-hero-desktop.png"
-    alt="Sasmita Haute Parfumerie Hero"
+    src="/assets/esenzzia/00-hero-desktop-clean.png"
+    alt="Sasmita Atelier Haute Parfumerie Hero"
     class="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-1000 ease-out hover:scale-[1.015]"
   />
 
   <!-- Subtle Minimal Vignette -->
   <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/30 pointer-events-none"></div>
 
-  <!-- Bottom Left Promo Headline (Signature Esenzzia Typography) -->
+  <!-- Bottom Left Promo Headline (Clean Indonesian Luxury) -->
   <div class="absolute bottom-12 sm:bottom-16 left-6 sm:left-14 lg:left-20 z-20 max-w-xl">
     <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black text-white uppercase tracking-tight leading-none mb-3">
       WANGI JAWI
@@ -30,7 +28,7 @@
     </button>
   </div>
 
-  <!-- Right Slide Indicators (Signature Esenzzia 8 Dots) -->
+  <!-- Right Slide Indicators (Signature 8 Dots) -->
   <div class="hidden md:flex absolute right-8 top-1/2 -translate-y-1/2 z-20 flex-col gap-3">
     {#each Array(8) as _, i}
       <button

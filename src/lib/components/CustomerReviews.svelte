@@ -8,33 +8,33 @@
       author: 'Irma J.',
       date: '26/10/2026',
       stars: 5,
-      comment: 'Me encanta las notas de salida, tenía miedo al fondo... pero que rica es de todo. Daun pandan dan sitrusnya luar biasa segar.',
+      comment: 'Aroma pembuka jeruk purutnya sangat segar dan renyah. Begitu dry down, aroma pandan liar dan vetiver basahnya keluar anggun dan mewah sekali di cuaca tropis.',
       product: PRODUCTS[0], // 379
-      vialImage: '/assets/esenzzia/products/379-meteore.jpg'
+      vialImage: '/assets/products/sasmita-379.jpg'
     },
     {
       author: 'Maria K.',
       date: '17/10/2026',
       stars: 5,
-      comment: 'La compré para probarla y me ha encantado. Cendana Mataram ini bikin berwibawa banget. Karakternya woody mewah seperti masuk keraton Jawa.',
+      comment: 'Cendana Mataram 428 ini bikin berwibawa banget. Karakternya woody pekat seperti masuk bangsal keraton Jawa kuno, boks silinder hitamnya sangat mewah.',
       product: PRODUCTS[1], // 428
-      vialImage: '/assets/esenzzia/products/428-reckless.jpg'
+      vialImage: '/assets/products/sasmita-428.jpg'
     },
     {
       author: 'Elisabet M.',
       date: '15/10/2026',
       stars: 5,
-      comment: 'Se me pusieron los pelos de punta al olerlo. Era mi perfume de joven y fue como volver... Melati Keraton projection-nya luar biasa tahan cuci.',
+      comment: 'Melati Keraton 565 wanginya luar biasa semerbak dan magnetis. Kelopak sedap malam malamnya manis anggun berkelas, tahan lebih dari 16 jam bahkan setelah dicuci.',
       product: PRODUCTS[2], // 565
-      vialImage: '/assets/esenzzia/products/565-palatine.jpg'
+      vialImage: '/assets/products/sasmita-565.jpg'
     },
     {
-      author: 'Miguel A.',
+      author: 'Bagus A.',
       date: '12/10/2026',
       stars: 5,
-      comment: 'Gran descubrimiento, lo pedí en un conjunto de muestras de vario... Rempah Sultan 601 aromanya hangat maskulin.',
-      product: PRODUCTS[3], // 601
-      vialImage: '/assets/esenzzia/products/017-santal.jpg'
+      comment: 'Satria Nusantara 708 aroma nanas berasap dan kayunya sangat maskulin dan berkarisma. Pengemasan sangat aman dan bonus vial sampel 5ml gratisnya mantap!',
+      product: PRODUCTS[3], // 708
+      vialImage: '/assets/products/sasmita-708.jpg'
     }
   ];
 </script>
@@ -46,17 +46,17 @@
     <div class="text-center mb-12">
       <div class="text-4xl sm:text-6xl font-black tracking-tight text-white flex items-center justify-center gap-2">
         <span class="text-amber-400">★</span>
-        <span>4.5</span>
+        <span>4.9</span>
         <span class="text-2xl sm:text-3xl font-normal text-white/50">/5</span>
       </div>
       <div class="text-xs font-mono uppercase tracking-widest text-white/60 mt-2">
-        8.228 Opiniones
+        8.228 Ulasan Pelanggan Terverifikasi
       </div>
 
       <!-- Arrow Controls -->
       <div class="flex items-center justify-center gap-4 mt-4 text-white/60">
-        <button class="p-1 hover:text-white transition-colors cursor-pointer"><ChevronLeft class="w-5 h-5" /></button>
-        <button class="p-1 hover:text-white transition-colors cursor-pointer"><ChevronRight class="w-5 h-5" /></button>
+        <button class="p-1 hover:text-white transition-colors cursor-pointer" aria-label="Sebelumnya"><ChevronLeft class="w-5 h-5" /></button>
+        <button class="p-1 hover:text-white transition-colors cursor-pointer" aria-label="Berikutnya"><ChevronRight class="w-5 h-5" /></button>
       </div>
     </div>
 
